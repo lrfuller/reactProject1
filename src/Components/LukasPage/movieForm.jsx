@@ -71,6 +71,11 @@ export default function movieForm() {
           The requirements for the text field are to have a different color for
           different characters, but if the character string exist then repeat
           the color. Also have a slider that displays it's number.
+          <br />
+          The idea I was going with to eventaully fill out is to make a movie
+          form with how many tickets, then display them. Potentially move it to
+          a database with a select option for the movies available, price,
+          pagination to display all the current purchases, stuff like that.
         </div>
         <br />
         <form onSubmit={handleSubmit}>
